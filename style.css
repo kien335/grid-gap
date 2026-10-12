@@ -1,0 +1,24 @@
+
+.grid-container1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+
+.grid-container1 div {
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px 10px;
+}
+
+.grid-container2 div {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
